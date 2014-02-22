@@ -50,7 +50,7 @@ gem 'rails_12factor', group: :production
 
 ruby "2.1.0"
 
-gem 'devise', '~> 3.1.1'
+gem 'devise', '~> 3.2'
 
 gem 'mandrill-api'
 
@@ -59,3 +59,13 @@ gem 'rmagick', '2.13.2'
 gem "paperclip", "~> 3.0"
 
 gem 'aws-sdk', '~> 1.5.7'
+
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+gem 'formtastic'
+
+gem 'inherited_resources'
+
+gem 'kaminari'
+
+gem "ransack", github: "activerecord-hackery/ransack", branch: "rails-4"
